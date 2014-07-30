@@ -1,0 +1,32 @@
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Ideas</a>
+    </div>
+  </div>
+</nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1><%= @i.name %>
+          <small>
+            <a href="/ideas/<%= @i.id %>/edit">Edit</a> |
+            <a href="/ideas/<%= @i.id %>/destroy">Destroy</a> 
+          </small></h1>
+        <div>
+          
+        </div>
+        <div>
+          <a href="/ideas">Back to list of ideas</a> | 
+          <a href="/new">Create a new idea</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
